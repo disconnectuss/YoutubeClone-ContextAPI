@@ -11,7 +11,7 @@ const Feed = () => {
 
   
 return (
-    <div className="flex bg-black min-h-[100vh] text-white">
+    <div className="flex bg-black min-h-[100vh] text-white p-3">
       <SideNav/>
       <div className="videos w-full">
        {!videos ?( <Loading/> ): (videos.map((item)=>{
