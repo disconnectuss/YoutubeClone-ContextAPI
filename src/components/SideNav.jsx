@@ -18,7 +18,7 @@ const SideNav = () => {
         <div className={`
           ${selectedCategory.name === item.name && `bg-gray-600`}
 
-          flex p-2 py-4 gap-3 items-center hover:bg-gray-600 rounded transition text-lg `}>
+          flex p-2 py-4 gap-3 items-center hover:bg-gray-600 rounded transition text-lg cursor-pointer `}>
             {item.icon}
             <span>
                 {item.name}

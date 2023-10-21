@@ -49,13 +49,13 @@ export const categories = [
     type: 'category',
     divider: true,
   },
-  { name: 'Ayarlar', icon: <FiSettings />, type: 'menu' },
+  { name: 'Settings', icon: <FiSettings />, type: 'menu' },
   {
     name: 'Report History',
     icon: <AiOutlineFlag />,
     type: 'menu',
   },
-  { name: 'Yardım', icon: <FiHelpCircle />, type: 'menu' },
+  { name: 'Help', icon: <FiHelpCircle />, type: 'menu' },
   {
     name: 'Send feedback',
     icon: <RiFeedbackLine />,
@@ -66,12 +66,11 @@ export const categories = [
 
 export const options = {
   params: {
-
     hl: 'en',
     gl: 'US'
   },
   headers: {
-    'X-RapidAPI-Key': '7f439e5980mshe38af19fbab2c45p1da11ejsne3faedfb56e8',
+    'X-RapidAPI-Key': import.meta.env.VITE_API_KEY ,
     'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
   }
 };

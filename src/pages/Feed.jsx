@@ -1,13 +1,14 @@
-import { useContext } from "react"
+import { useContext} from "react"
 import { YouTubeContext } from "../context/YoutubeContext"
 import SideNav from "../components/SideNav"
 import Loading from "../components/Loading";
 import {VideoCard} from "../components/VideoCard";
 
 
+
 const Feed = () => {
   const {videos}=useContext(YouTubeContext)
-  console.log(videos)
+
   
 return (
     <div className="flex bg-black min-h-[100vh] text-white">
@@ -22,6 +23,6 @@ return (
       </div>
     </div>
   )
-};
+}
 
 export default Feed
