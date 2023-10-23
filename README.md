@@ -6,7 +6,7 @@
 https://github.com/disconnectuss/YoutubeClone-ContextAPI/assets/129686850/3029677b-f1e6-4209-a185-84053a593eca
 
 
-# Overview:
+# Overview: 
 
 * This project is a YouTube clone that replicates the core features of YouTube, built using React, React Router, Axios, Tailwind CSS, React Player, and Millify. It leverages Context API for state management and the RapidAPI YouTube Data API for fetching data. It aims to provide users with a familiar YouTube-like experience, showcasing the integration of various technologies and libraries. Users can search for videos, view video details, watch videos, explore related content, and engage with video comments.
 
