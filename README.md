@@ -43,7 +43,7 @@ Viewers can interact with video content by reading and posting comments.
 
 - Millify: Millify is used to format large numbers, such as subscriber counts, in a more human-readable format.
 
-- React Icons:
+- React Icons: React Icons provides a wide range of icon sets and allows developers to easily incorporate these icons to enhance the visual appeal and functionality of their web and mobile applications.
 
 
 
